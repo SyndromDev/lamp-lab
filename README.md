@@ -5,7 +5,7 @@ Linux + Apache + MariaDB + PHP
 
 ---
 
-## 🔧 Stack
+##  Stack
 
 - Ubuntu Linux
 - Apache2
@@ -14,7 +14,7 @@ Linux + Apache + MariaDB + PHP
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Apache web server setup
 - PHP integration
@@ -23,4 +23,22 @@ Linux + Apache + MariaDB + PHP
 
 ---
 
-## 📸 Screenshots
+##  Project Screenshots
+
+### Apache running web server
+![Apache](screenshots/apache.png)
+
+### Apache configuration check
+![Apache Config](screenshots/apachecfg.png)
+
+### PHP execution
+![PHP](screenshots/php.png)
+
+### MariaDB connection
+![Database](screenshots/batabase.png)
+
+### MySQL login
+![MySQL](screenshots/mysql.png)
+
+### Apache service status
+![Systemctl](screenshots/systemctl-apache2.png)
