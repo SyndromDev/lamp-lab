@@ -56,7 +56,7 @@ The project was created to practice Linux system administration, web server setu
 A simple PHP script connects to a MariaDB database and verifies connectivity:
 
 Database connection test output:
-> Database connected successfully 🎉
+> Database connected successfully!
 
 ---
 
