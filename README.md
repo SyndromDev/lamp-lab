@@ -1,68 +1,67 @@
 # LAMP Stack Lab (Linux + Apache + MariaDB + PHP)
 
-This project demonstrates a full LAMP stack setup on Ubuntu, simulating a basic web hosting environment.
+Этот проект демонстрирует полную настройку стека LAMP на Ubuntu, имитируя базовую среду веб-хостинга.
 
-It includes installation, configuration, and integration of Apache, PHP, and MariaDB, along with a working database connection test.
+Он включает установку, настройку и интеграцию Apache, PHP и MariaDB, а также работающий тест подключения к базе данных.
 
-The project was created to practice Linux system administration, web server setup, and basic backend troubleshooting tasks similar to those performed in hosting support environments.
+Проект создан для отработки навыков администрирования систем Linux, настройки веб-сервера и выполнения базовых задач по устранению неполадок бэкэнда, аналогичных тем, которые выполняются в службах поддержки хостинга.
 
----
+--
 
-##  Technologies Used
+## Используемые технологии
 
 - Ubuntu Linux
-- Apache2 web server
+- Веб-сервер Apache2
 - PHP 8+
 - MariaDB
-- MySQLi (PHP extension)
+- MySQLi (расширение PHP)
 
 ---
 
-##  Features
+## Особенности
 
-- Apache web server configured and running
-- PHP integration with Apache (mod_php)
-- MariaDB database setup with user privileges
-- PHP → Database connection test
-- Systemd service management (apache2, mariadb)
-- Basic troubleshooting of common LAMP issues
+- Веб-сервер Apache настроен и работает
+- Интеграция PHP с Apache (mod_php)
+- Настройка базы данных MariaDB с правами пользователя
+- PHP → Тест подключения к базе данных
+- Управление службами Systemd (apache2, mariadb)
+- Базовое устранение распространенных проблем LAMP
 
 ---
 
-##  Project Screenshots
+## Скриншоты проекта
 
-### Apache running web server
+### Веб-сервер Apache запущен
 ![Apache](screenshots/apache.png)
 
-### Apache configuration check
+### Проверка конфигурации Apache
 ![Apache Config](screenshots/apachecfg.png)
 
-### PHP execution
+### Выполнение PHP
 ![PHP](screenshots/php.png)
 
-### MariaDB connection
+### Подключение к MariaDB
 ![Database](screenshots/batabase.png)
 
-### MySQL login
+### Вход в MySQL
 ![MySQL](screenshots/mysql.png)
 
-### Apache service status
+### Состояние службы Apache
 ![Systemctl](screenshots/systemctl-apache2.png)
 
 
+## Пример использования
 
-##  Example Use Case
+Простой PHP-скрипт подключается к базе данных MariaDB и проверяет соединение:
 
-A simple PHP script connects to a MariaDB database and verifies connectivity:
+Вывод теста подключения к базе данных:
+> База данных успешно подключена!
 
-Database connection test output:
-> Database connected successfully!
+--
 
----
+## Что я узнал
 
-##  What I learned
-
-- Linux server administration basics
-- Apache configuration and service management
-- SQL user and privilege management
-- Debugging connection issues between PHP and database
+- Основы администрирования серверов Linux
+- Конфигурация Apache и управление службами
+- Управление пользователями и правами доступа SQL
+- Отладка проблем с подключением между PHP и базой данных
